@@ -1,0 +1,13 @@
+def find_anagram(word, anagram):
+    if(sorted(word)== sorted(anagram)):
+        print(True)
+    else:
+        print(False)
+
+word_input= str(input("Enter word: "))
+anagram_input= str(input("Enter anagram: "))
+
+word= word_input.lower()
+anagram= anagram_input.lower()
+
+find_anagram(word, anagram)
